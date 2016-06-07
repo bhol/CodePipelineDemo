@@ -2,5 +2,9 @@
 echo performing you update
 yum -y update
 
+export AWS_ABC=abc
+
+printenv
+
 echo installing apache
 yum install -y httpd
